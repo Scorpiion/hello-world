@@ -1,0 +1,8 @@
+runtime: nodejs
+version: latest
+
+build:
+  - npm install
+
+start: static
+
