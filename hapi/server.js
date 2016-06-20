@@ -16,6 +16,13 @@ server.route({
   handler: function (request, reply) {
     return reply('Hello World from Hapi!');
   }
+},
+{
+  method: 'GET',
+  path:'/nodejs',
+  handler: function (request, reply) {
+    return reply('Hello World from Hapi at path /nodejs!');
+  }
 });
 
 // Start the server
