@@ -1,6 +1,6 @@
-
 # Created by https://www.gitignore.io/api/dart
 
+########################################################################
 ### Dart ###
 # See https://www.dartlang.org/tools/private-files.html
 
@@ -32,6 +32,7 @@ pubspec.lock
 
 # Created by https://www.gitignore.io/api/node
 
+########################################################################
 ### Node ###
 # Logs
 logs
@@ -70,4 +71,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+########################################################################
+### WebStorm ###
+.idea
 
