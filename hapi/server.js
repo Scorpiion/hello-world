@@ -9,15 +9,15 @@ server.connection({
   port: 8080
 });
 
-// Add the route
+// Add the routes
 server.route({
   method: 'GET',
   path:'/',
   handler: function (request, reply) {
     return reply('Hello World from Hapi!');
   }
-},
-{
+});
+server.route({
   method: 'GET',
   path:'/nodejs',
   handler: function (request, reply) {
