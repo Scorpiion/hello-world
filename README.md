@@ -10,9 +10,10 @@ This repo includes hello world apps for both Dart and Nodejs server and client s
 4. Create a Sourcevoid app (if you don't already have one you want to use)
 5. Connect your Github account (if you don't already have or want to use archive upload)
 6. Deploying a Sourcevoid environment (either from your Github account or upload a zip archive)
-  - Select your Github repo from the selector (or archive)
-  - Press the "More" button and enter the name of the directory/framework you want to deploy, eg. "/shelf" or "/express" if you deploy from your Github repo and if you downloaded a zip archive from Github use "/hello-world-master/shelf" or "/hello-world-master/express" as the zip archive adds one directory level for itself.
-  - Press the create button
+ - Enter a name for the environment, "hello" for example  
+ - Select your Github repo from the selector (or archive)
+ - Press the "More" button and enter the name of the directory/framework you want to deploy, eg. "/shelf" or "/express" if you deploy from your Github repo and if you downloaded a zip archive from Github use "/hello-world-master/shelf" or "/hello-world-master/express" as the zip archive adds one directory level for itself.
+ - Press the create button
 7. Press the blue console button to watch the deployment process (optional)
 8. Press the start button to start the environment
 9. Press one of the links in the "App" or "Env" column in the app view to open the app/env 
