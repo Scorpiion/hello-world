@@ -4,6 +4,7 @@ This repo includes hello world apps for both Dart and Nodejs server and client s
 
 ## Get started
 
+0. [Get a Sourcevoid account and login](https://cloud.sourcevoid.com/#signup)
 1. Create your own copy of this repo on your Github account (or download a zip archive of it and use archive deployment)
 3. Create a Sourcevoid pool (if you don't already have one you want to use)
 3. Create a Sourcevoid app (if you don't already have one you want to use)
