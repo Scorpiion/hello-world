@@ -17,5 +17,8 @@ This repo includes hello world apps for both Dart and Nodejs server and client s
 7. Press the blue console button to watch the deployment process (optional)
 8. Press the start button to start the environment
 9. Press one of the links in the "App" or "Env" column in the app view to open the app/env 
-10. Press the blue console button to watch the output of the server process (optional) 
+11. If you deployed a static app, you also need to setup a path for where the static files are served from, we don't do this automatically for security reasons
+ - For "/angular-dart", open static settings and enter path "/" and directory "build/web" 
+ - For "/angular-js", open static settings and enter path "/" and directory "/"
+12. Press the blue console button to watch the output of the server process (optional) 
 
